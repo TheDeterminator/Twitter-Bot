@@ -1,0 +1,16 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Doing all twitter things programatically",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alec Jordan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0"
+  }
+}
