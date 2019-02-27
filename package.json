@@ -4,13 +4,17 @@
   "description": "Doing all twitter things programatically",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Alec Jordan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "node-oauth": "^0.1.3",
     "nodemon": "^1.18.10",
-    "request": "^2.88.0"
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1"
   }
 }
